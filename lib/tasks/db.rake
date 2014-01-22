@@ -8,7 +8,7 @@ namespace :db do
     host = db_config[Rails.env]['host']
     database = db_config[Rails.env]['database']
 
-    filename = "dump-#{Rails.env}-#{Time.now.strftime('%Y-%m-%d')}.sql"
+    filename = "dump-#{database}-#{Time.now.strftime('%Y-%m-%d')}.sql"
 
     command = 'mysqldump'
     command += ' --add-drop-table'
