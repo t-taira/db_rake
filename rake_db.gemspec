@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RakeDb::VERSION
   spec.authors       = ["Takao Taira"]
   spec.email         = ["taira@hanoi.jp"]
-  spec.summary       = %q{Provides a rake db:dump task.}
-  spec.description   = %q{Provides a rake db:dump task.}
+  spec.summary       = %q{Provides a rake db task.}
+  spec.description   = %q{Provides a rake db task.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
